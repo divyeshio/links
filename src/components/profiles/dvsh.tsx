@@ -156,7 +156,7 @@ export default function DvshLinks() {
         {/* Profile */}
         <div className="text-center mb-10">
           <div className="inline-block p-0.5 rounded-full bg-linear-to-tr from-[#1affb2] via-[#6e3aff] to-[#00b4d8]">
-            <img src={profileImage} alt={artistName} className="w-28 h-28 rounded-full object-cover border-4 border-[#070b18]" />
+            <img src="/profile.jpeg" alt={artistName} className="w-28 h-28 rounded-full object-cover border-4 border-[#070b18]" />
           </div>
           <div className="mt-6">
             <GradientWaveText
@@ -210,7 +210,7 @@ export default function DvshLinks() {
               </a>
             ))}
             <div className="mx-1.5 -my-5 relative z-10 p-0.5 rounded-full bg-linear-to-tr from-[#1affb2] via-[#6e3aff] to-[#00b4d8] shadow-lg shadow-black/30">
-              <img src={profileImage} alt={artistName} className="w-16 h-16 rounded-full object-cover border-[3px] border-[#070b18]" />
+              <img src="/profile.jpeg" alt={artistName} className="w-16 h-16 rounded-full object-cover border-[3px] border-[#070b18]" />
             </div>
             {socialLinks.slice(2).map((link) => (
               <a key={`nav-${link.platform}`} href={link.url} target="_blank" rel="noopener noreferrer"
